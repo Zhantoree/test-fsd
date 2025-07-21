@@ -10,6 +10,8 @@
 | src/entities | Entities FSD Layer |
 | src/shared   | Shared FSD Layer   |
 
+
+
 Скачиваем библиотеки
 ```bash
     npm install
