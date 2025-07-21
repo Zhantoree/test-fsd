@@ -1,0 +1,37 @@
+.formItem {
+  @apply w-full;
+  margin-bottom: 10px;
+
+
+  :global(.ant-form-item-label) {
+    label {
+      display: flex;
+      justify-content: space-between;
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
+.formItemRequired {
+  @apply w-full flex! items-center!;
+
+
+  :global(.ant-form-item-label) {
+    label {
+      display: flex;
+      justify-content: space-between;
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+}
+
+.input {
+  @apply w-4!;
+}
